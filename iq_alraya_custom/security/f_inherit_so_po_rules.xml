@@ -1,0 +1,51 @@
+<odoo>
+
+
+	
+
+	
+	
+
+
+<record id="iq_branchpurchase_access" model="ir.rule">
+			<field name="name">IQ Custom Purchase Section Access </field>
+			<field name="model_id" ref="purchase.model_purchase_order" />
+			<field name="domain_force">['|',( 'iq_po_branch','in',user.f_po_branch.ids),('iq_po_branch','=', False)]
+			</field>
+		</record>
+		
+		
+	<record id="iq_branchsale_access" model="ir.rule">
+			<field name="name">IQ Custom Sale Section Access </field>
+			<field name="model_id" ref="sale.model_sale_order" />
+				<field name="domain_force">['|',( 'iq_so_branch','in',user.f_so_branch.ids),('iq_so_branch','=', False)]
+			</field>
+		</record>
+		
+		<!-- <record id="iq_branchsection_access" model="ir.rule">
+			<field name="name">IQ Custom Sales Section Config Access </field>
+			<field name="model_id" ref="iq_alraya_custom.model_iq_so_branches" />
+				<field name="domain_force">[( 'id','in',user.f_so_branch.ids)]
+			</field>
+		</record>
+		
+		
+	<record id="iq_pobranchsection_access" model="ir.rule">
+			<field name="name">IQ Custom Purchase Section Config Access </field>
+			<field name="model_id" ref="iq_alraya_custom.model_iq_po_branches" />
+			<field name="domain_force">[( 'id','in',user.f_po_branch.ids)]
+			
+				
+			</field>
+		</record>
+		 -->
+		
+
+
+
+
+
+
+
+
+</odoo>

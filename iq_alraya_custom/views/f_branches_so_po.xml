@@ -1,0 +1,220 @@
+<odoo>
+
+
+
+<record id="iq_po_branches_cat2_tree" model="ir.ui.view">
+		<field name="name">iq.po.branches.cat2.tree</field>
+		<field name="model">iq.po.branches.cat2</field>
+		<field name="arch" type="xml">
+
+			<tree string="Section Managment">
+				<field name="iq_name" />
+		
+			</tree>
+		</field>
+	</record>
+	<record id="iq_po_branches_cat2_form" model="ir.ui.view">
+		<field name="name">iq.po.branches.cat2.form</field>
+		<field name="model">iq.po.branches.cat2</field>
+		<field name="arch" type="xml">
+
+			<form string="Section Managment" >
+			<sheet>
+			<group>
+			<group>
+				<field name="iq_name" />
+			</group>
+			</group>
+			
+			</sheet>
+			
+		
+			</form>
+		</field>
+	</record>
+	
+	
+	
+	
+
+<record id="iq_po_branches_cat2_wiazrd"
+		model="ir.actions.act_window">
+		<field name="name">Sections Managment</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">iq.po.branches.cat2</field>
+		<field name="view_mode">tree,form</field>
+		<field name="target">current</field>
+	</record>
+
+
+
+	<menuitem id="menu_iq_po_branches_cat2_list" name="PO Port Sections"
+		action="iq_po_branches_cat2_wiazrd"
+		parent="base.menu_users" sequence="10" />
+		
+		
+		
+		
+
+
+<record id="iq_po_branches_cat1_tree" model="ir.ui.view">
+		<field name="name">iq.po.branches.cat1.tree</field>
+		<field name="model">iq.po.branches.cat1</field>
+		<field name="arch" type="xml">
+
+			<tree string="Section Managment">
+				<field name="iq_name" />
+		
+			</tree>
+		</field>
+	</record>
+	<record id="iq_po_branches_cat1_form" model="ir.ui.view">
+		<field name="name">iq.po.branches.cat1.form</field>
+		<field name="model">iq.po.branches.cat1</field>
+		<field name="arch" type="xml">
+
+			<form string="Section Managment" >
+			<sheet>
+			<group>
+			<group>
+				<field name="iq_name" />
+			</group>
+			</group>
+			
+			</sheet>
+			
+		
+			</form>
+		</field>
+	</record>
+	
+	
+	
+	
+
+<record id="iq_po_branches_cat1_wiazrd"
+		model="ir.actions.act_window">
+		<field name="name">Sections Managment</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">iq.po.branches.cat1</field>
+		<field name="view_mode">tree,form</field>
+		<field name="target">current</field>
+	</record>
+
+
+
+	<menuitem id="menu_iq_po_branches_cat1_list" name="PO Transport Type Sections"
+		action="iq_po_branches_cat1_wiazrd"
+		parent="base.menu_users" sequence="10" />
+		
+		
+		
+
+
+<record id="iq_po_branches_tree" model="ir.ui.view">
+		<field name="name">iq.po.branches.tree</field>
+		<field name="model">iq.po.branches</field>
+		<field name="arch" type="xml">
+
+			<tree string="Section Managment">
+				<field name="iq_name" />
+		
+			</tree>
+		</field>
+	</record>
+	<record id="iq_po_branches_form" model="ir.ui.view">
+		<field name="name">iq.po.branches.form</field>
+		<field name="model">iq.po.branches</field>
+		<field name="arch" type="xml">
+
+			<form string="Section Managment" >
+			<sheet>
+			<group>
+			<group>
+				<field name="iq_name" />
+					<field name="iq_is_import" />
+			</group>
+			</group>
+			
+			</sheet>
+			
+		
+			</form>
+		</field>
+	</record>
+	
+	
+
+
+
+	<record id="iq_so_branches_tree" model="ir.ui.view">
+		<field name="name">iq.so.branches.tree</field>
+		<field name="model">iq.so.branches</field>
+		<field name="arch" type="xml">
+
+			<tree string="Section Managment" >
+				<field name="iq_name" />
+		
+			</tree>
+		</field>
+	</record>
+	
+	
+	<record id="iq_so_branches_form" model="ir.ui.view">
+		<field name="name">iq.so.branches.form</field>
+		<field name="model">iq.so.branches</field>
+		<field name="arch" type="xml">
+
+			<form string="Section Managment" >
+			<sheet>
+			<group>
+			<group>
+				<field name="iq_name" />
+			</group>
+			</group>
+			
+			</sheet>
+			
+		
+			</form>
+		</field>
+	</record>
+	
+	
+
+
+
+	<record id="iq_so_branches_wiazrd"
+		model="ir.actions.act_window">
+		<field name="name">Sections Managment</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">iq.so.branches</field>
+		<field name="view_mode">tree,form</field>
+		<field name="target">current</field>
+	</record>
+
+
+
+
+	<record id="iq_po_branches_wiazrd"
+		model="ir.actions.act_window">
+		<field name="name">Sections Managment</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">iq.po.branches</field>
+		<field name="view_mode">tree,form</field>
+		<field name="target">current</field>
+	</record>
+
+
+
+	<menuitem id="menu_iq_po_branches_list" name="Purchase Sections"
+		action="iq_po_branches_wiazrd"
+		parent="base.menu_users" sequence="10" />
+		
+		
+			<menuitem id="menu_iq_so_branches_list" name="Sale Sections"
+		action="iq_so_branches_wiazrd"
+		parent="base.menu_users" sequence="11" />
+
+
+</odoo>

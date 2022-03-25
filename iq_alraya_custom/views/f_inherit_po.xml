@@ -1,0 +1,40 @@
+
+
+<odoo>
+ <record id="iq_poview_form_inherit_sections" model="ir.ui.view">
+        <field name="name">iq_poview.form.inherit.restrict</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="after">
+             <field name="iq_is_import" invisible="1"/>
+             <field name="iq_po_branch" options="{'no_create': True, 'no_quick_create': True, 'no_create_edit':True,'no_open': True}"/>
+              <field name="iq_po_branch_cat1" attrs="{'invisible':[('iq_is_import', '=', False)]}" options="{'no_create': True, 'no_quick_create': True, 'no_create_edit':True,'no_open': True}"/>
+                <field name="iq_po_branch_cat2" attrs="{'invisible':[('iq_is_import', '=', False)]}" options="{'no_create': True, 'no_quick_create': True, 'no_create_edit':True,'no_open': True}"/>
+                  <field name="iq_cost"/>
+                   <field name="iq_cost_tx"/>
+                  <field name="iq_cost_ex"/>
+                   <field name="iq_cost_en"/>
+                  <field name="iq_cost_wo"/>
+                   
+                   
+                    
+                    
+            </xpath>
+            
+            <xpath expr="//field[@name='amount_total']" position="after">
+                    <field name="iq_total_original_cost"/>
+                </xpath>
+                
+                
+                
+                 <xpath expr="//field[@name='order_line']//field[@name='price_unit']" position="before">
+                    <field name="iq_original_price_unit"/>
+
+                </xpath>
+                
+                
+        </field>
+    </record>
+    
+    </odoo>

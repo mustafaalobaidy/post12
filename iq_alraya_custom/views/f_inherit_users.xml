@@ -1,0 +1,56 @@
+<odoo>
+    <record id="iq_res_users_view_form_inherit_sections" model="ir.ui.view">
+        <field name="name">res.users.view.form.inherit.user.restrict</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet//notebook//page[@name='references']" position="after">
+               <page name='so_section_user_asccess'
+					string='Sale Sections Access'>
+					<group>
+
+
+						<field name="f_defaultso_branch" />
+						<field name="f_so_branch" widget="many2many_tags" />
+					</group>
+
+				</page>
+
+
+				<page name='po_section_user_asccess'
+					string='Purchase Sections Access'>
+					<group>
+						<field name="f_defaultpo_branch" />
+						<field name="f_po_branch" widget="many2many_tags" />
+					</group>
+
+				</page>
+				<page name='lot_section_user_asccess'
+					string='Lot Notification Access'>
+					<group>
+
+
+						<field name="f_recevielotnotfiy" />
+
+					</group>
+
+				</page>
+				
+				
+				<page name='journal_section_user_asccess'
+					string='Journals Access'>
+					<group>
+
+
+						<field name="iq_defaultpjournal" />
+						<field name="iq_journals" widget="many2many_tags" />
+					</group>
+
+				</page>
+
+
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

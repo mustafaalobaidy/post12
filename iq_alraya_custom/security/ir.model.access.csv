@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_iq_po_branches,iq_po_branches,model_iq_po_branches,base.group_user,1,1,1,1
+access_iq_so_branches,iq_so_branches,model_iq_so_branches,base.group_user,1,1,1,1  
+access_iq_lot_expiry_wizard,iq_lot_expiry_wizard,model_iq_lot_expiry_wizard,base.group_user,1,1,1,1
+access_iq_po_branches_cat1,iq_po_branches_cat1,model_iq_po_branches_cat1,base.group_user,1,1,1,1
+access_iq_po_branches_cat2,iq_po_branches_cat2,model_iq_po_branches_cat2,base.group_user,1,1,1,1

@@ -1,0 +1,25 @@
+
+
+<odoo>
+ <record id="iq_saleview_form_inherit_sections" model="ir.ui.view">
+        <field name="name">iq_salesview.form.inherit.restrict</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="after">
+            <field name="iq_so_type"/> 
+                <field name="iq_so_branch" options="{'no_create': True, 'no_quick_create': True, 'no_create_edit':True,'no_open': True}"/>
+                  <field name="iq_cost"/>
+                   </xpath>
+                      <xpath expr="//field[@name='payment_term_id']" position="after">
+                 <field name="warehouse_id"/>    
+            </xpath>
+            
+         
+                
+        </field>
+    </record>
+    
+    
+   
+    </odoo>

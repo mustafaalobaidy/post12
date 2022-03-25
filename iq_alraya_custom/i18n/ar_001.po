@@ -1,0 +1,707 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* iq_alraya_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-12 12:11+0000\n"
+"PO-Revision-Date: 2022-02-12 12:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_po_brances
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_porfq_brances
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_so_brances
+msgid ""
+"<span>\n"
+"                <strong>Cost:</strong>\n"
+"                <br/>\n"
+"              </span>"
+msgstr ""
+"<span>\n"
+"                <strong>التكلفه:</strong>\n"
+"                <br/>\n"
+"              </span>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_porfq_brances
+msgid ""
+"<span>\n"
+"                <strong>Taxes Cost:</strong>\n"
+"                <br/>\n"
+"              </span>"
+msgstr ""
+"<span>\n"
+"                <strong>الضرائب:</strong>\n"
+"                <br/>\n"
+"              </span>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_po_brances
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_porfq_brances
+msgid ""
+"<span>\n"
+"            <strong>External Transfer Cost:</strong>\n"
+"            <br/>\n"
+"          </span>"
+msgstr ""
+"<span>\n"
+"            <strong>أجور نقل خارجي:</strong>\n"
+"            <br/>\n"
+"          </span>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_po_brances
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_porfq_brances
+msgid ""
+"<span>\n"
+"            <strong>Internal Transfer Cost:</strong>\n"
+"            <br/>\n"
+"          </span>"
+msgstr ""
+"<span>\n"
+"            <strong>أجور نقل داخلي:</strong>\n"
+"            <br/>\n"
+"          </span>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_po_brances
+msgid ""
+"<span>\n"
+"            <strong>Taxes Cost:</strong>\n"
+"            <br/>\n"
+"          </span>"
+msgstr ""
+"<span>\n"
+"            <strong>الضرائب:</strong>\n"
+"            <br/>\n"
+"          </span>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_po_brances
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_porfq_brances
+msgid ""
+"<span>\n"
+"            <strong>Workers Cost:</strong>\n"
+"            <br/>\n"
+"          </span>"
+msgstr ""
+"<span>\n"
+"            <strong>أجور العمال:</strong>\n"
+"            <br/>\n"
+"          </span>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_account_po_so_brances
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_po_brances
+msgid "<span>Original Unit Price</span>"
+msgstr "<span>سعر الوحدة الاصلي</span>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_account_po_so_brances
+msgid "<strong>Cost:</strong>"
+msgstr "<strong>التكلفة:</strong>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_expiry_lot_template
+msgid "<strong>Date: </strong>"
+msgstr "<strong>التاريخ: </strong>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_expiry_lot_template
+msgid "<strong>Days: </strong>"
+msgstr "<strong>عدد الايام: </strong>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_account_po_so_brances
+msgid "<strong>External Transfer Cost:</strong>"
+msgstr "<strong>أجور النقل الخارجي:</strong>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_account_po_so_brances
+msgid "<strong>Internal Transfer Cost:</strong>"
+msgstr "<strong>أجور النقل الداخلي</strong>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_account_po_so_brances
+msgid "<strong>Taxes Cost:</strong>"
+msgstr "<strong>الضرائب:</strong>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_account_po_so_brances
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_po_brances
+msgid "<strong>Total Original Price</strong>"
+msgstr "<strong>مجموع الاسعار الاصليه</strong>"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.f_inherit_account_po_so_brances
+msgid "<strong>Workers Cost:</strong>"
+msgstr "<strong>أجور العمال:</strong>"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches__active
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat1__active
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat2__active
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_so_branches__active
+msgid "Active"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_res_users__iq_journals
+msgid "Allowed Journals"
+msgstr "دفاتر اليومية المسموحة"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_res_users__f_po_branch
+msgid "Allowed Purchase Section"
+msgstr " اقسام المشتريات المسموحة"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_res_users__f_so_branch
+msgid "Allowed Sale Section"
+msgstr " اقسام المبيعات المسموحة"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_amount
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_amount
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_amount
+msgid "Amount"
+msgstr "المبلغ"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_sale_order__iq_so_type
+msgid "Apply Cost"
+msgstr "نوع التكلفة"
+
+#. module: iq_alraya_custom
+#: model:ir.actions.server,name:iq_alraya_custom.iq_lotexpired_autometic_cron_ir_actions_server
+#: model:ir.cron,cron_name:iq_alraya_custom.iq_lotexpired_autometic_cron
+#: model:ir.cron,name:iq_alraya_custom.iq_lotexpired_autometic_cron
+msgid "Automatic Run After 7 days Expired Lots"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_wizard_lot_expiredview_form
+msgid "Cancel"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_contact
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_contact
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_contact
+msgid "Contact Name"
+msgstr "اسم الطالب"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__iq_cost
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_sale_order__iq_cost
+msgid "Cost"
+msgstr "التكلفة"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_lot_expiry_wizard__create_uid
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches__create_uid
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat1__create_uid
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat2__create_uid
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_so_branches__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_lot_expiry_wizard__create_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches__create_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat1__create_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat2__create_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_so_branches__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_lot_expiry_wizard__iq_date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_lot_expiry_wizard__iq_days_beforeexpiry
+msgid "Days Before Expired "
+msgstr "الايام قبل الانتهاء"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_res_users__iq_defaultpjournal
+msgid "Default Journal"
+msgstr "دفتر اليومية التلقائي"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_res_users__f_defaultpo_branch
+msgid "Default Purchase Section"
+msgstr "قسم المشتريات التلقائي"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_res_users__f_defaultso_branch
+msgid "Default Sale Section"
+msgstr "قسم المبيعات التلقائي"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_emp_dep
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_emp_dep
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_emp_dep
+msgid "Department"
+msgstr "القسم المعني"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment_register__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_lot_expiry_wizard__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat1__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat2__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_so_branches__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_product_product__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order_line__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_res_users__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_sale_order__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_move__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_move_line__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_production_lot__display_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_quant__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_employee
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_employee
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_employee
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_res_users__f_recevielotnotfiy
+msgid "Enable LOT Notification"
+msgstr "تفعيل اشعارات lot"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_expiry_lot_template
+msgid "Expiry Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_cost_ex
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_cost_ex
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_cost_ex
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__iq_cost_ex
+msgid "External Transfer Cost"
+msgstr "أجور النقل الخارجي"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move_line__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment_register__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_lot_expiry_wizard__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat1__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat2__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_so_branches__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_product_product__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order_line__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_res_users__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_sale_order__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_sale_order_line__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_move__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_move_line__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_production_lot__id
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_quant__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_cost_en
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_cost_en
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_cost_en
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__iq_cost_en
+msgid "Internal Transfer Cost"
+msgstr "أجور النقل الداخلي"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches__iq_is_import
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__iq_is_import
+msgid "Is Import"
+msgstr "قسم استيراد ؟"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__journal_id
+msgid "Journal"
+msgstr "دفتر اليومية"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_account_move
+msgid "Journal Entry"
+msgstr "قيد اليومية"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_account_move_line
+msgid "Journal Item"
+msgstr "عنصر اليومية"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_res_users_view_form_inherit_sections
+msgid "Journals Access"
+msgstr "صلاحيات دفاتر اليومية"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment_register____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_lot_expiry_wizard____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat1____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat2____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_so_branches____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_product_product____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order_line____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_res_users____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_sale_order____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_sale_order_line____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_move____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_move_line____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_production_lot____last_update
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_quant____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_lot_expiry_wizard__write_uid
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches__write_uid
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat1__write_uid
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat2__write_uid
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_so_branches__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_lot_expiry_wizard__write_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches__write_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat1__write_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat2__write_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_so_branches__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_res_users_view_form_inherit_sections
+msgid "Lot Notification Access"
+msgstr "صلاحيات اشعارات LOT"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order_line__iq_lot_no
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_sale_order_line__iq_lot_no
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_expiry_lot_template
+msgid "Lot Number"
+msgstr "رقم التشغيلة/المسلسل"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_stock_production_lot
+msgid "Lot/Serial"
+msgstr "اللوط/المسلسل"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches__iq_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat1__iq_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_po_branches_cat2__iq_name
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_iq_so_branches__iq_name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields.selection,name:iq_alraya_custom.selection__sale_order__iq_so_type__compnay
+msgid "On Company"
+msgstr "على الشركه"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields.selection,name:iq_alraya_custom.selection__sale_order__iq_so_type__customer
+msgid "On Customer"
+msgstr "على الزبون"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move_line__iq_original_price_unit
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order_line__iq_original_price_unit
+msgid "Original Unit Price"
+msgstr "سعر الوحده الاصليه"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_cost
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_cost
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_cost
+msgid "PO Cost"
+msgstr "التكلفة"
+
+#. module: iq_alraya_custom
+#: model:ir.ui.menu,name:iq_alraya_custom.menu_iq_po_branches_cat2_list
+msgid "PO Port Sections"
+msgstr "اقسام المنافذ للمشتريات"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_po_branch
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_po_branch
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_po_branch
+msgid "PO Section"
+msgstr "القسم"
+
+#. module: iq_alraya_custom
+#: model:ir.ui.menu,name:iq_alraya_custom.menu_iq_po_branches_cat1_list
+msgid "PO Transport Type Sections"
+msgstr "اقسام انواع النقل للمشتريات"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_account_payment
+msgid "Payments"
+msgstr "المدفوعات"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__iq_po_branch_cat2
+msgid "Port Name"
+msgstr "المنفذ"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_product_product
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_expiry_lot_template
+msgid "Product"
+msgstr "المنتج"
+
+#. module: iq_alraya_custom
+#: model:ir.ui.menu,name:iq_alraya_custom.menu_iq_lot_expired_report_all
+msgid "Product Expired / Alert Lots Report"
+msgstr " المنتجات /LOT  القريبه من الانتهاء"
+
+#. module: iq_alraya_custom
+#: model:ir.actions.act_window,name:iq_alraya_custom.action_iq_lot_expired_report
+msgid "Product Expired / Alert Lots Report "
+msgstr " المنتجات /LOT  القريبه من الانتهاء"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "تحركات المنتج (بنود حركة المخزون)"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_product_product__iq_prod_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_move_line__iq_prod_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_production_lot__iq_prod_date
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_stock_quant__iq_prod_date
+msgid "Production Date"
+msgstr "تاريخ الانتاج"
+
+#. module: iq_alraya_custom
+#: model:ir.actions.report,name:iq_alraya_custom.iq_lot_expiry_receipt
+msgid "Products Lots Alert"
+msgstr " المنتجات /LOT تنبيهات "
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_expiry_lot_template
+msgid "Products Lots Report"
+msgstr " المنتجات /LOT تقرير"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_purchase_order
+msgid "Purchase Order"
+msgstr "أمر شراء"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "بند أمر الشراء"
+
+#. module: iq_alraya_custom
+#: model:ir.ui.menu,name:iq_alraya_custom.menu_iq_po_branches_list
+msgid "Purchase Sections"
+msgstr "اقسام الشراء"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_res_users_view_form_inherit_sections
+msgid "Purchase Sections Access"
+msgstr "صلاحيات اقسام المشتريات"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_expiry_lot_template
+msgid "Qty"
+msgstr "الكمية"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_stock_quant
+msgid "Quants"
+msgstr "الدفعات"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_salepickingviewreceiptsetting_form_inherit_sections
+msgid "Receipt Setting"
+msgstr "اعدادات الاستلام"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_account_payment_register
+msgid "Register Payment"
+msgstr "تسجيل دفعة"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_so_cost
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_so_cost
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_so_cost
+msgid "SO Cost"
+msgstr "التكلفة"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_so_branch
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_so_branch
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_so_branch
+msgid "SO Section"
+msgstr "نوع البيع"
+
+#. module: iq_alraya_custom
+#: model:ir.ui.menu,name:iq_alraya_custom.menu_iq_so_branches_list
+msgid "Sale Sections"
+msgstr "انواع البيع"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_res_users_view_form_inherit_sections
+msgid "Sale Sections Access"
+msgstr "صلاحيات اقسام البيع"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "بند أمر المبيعات"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__iq_po_branch
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_sale_order__iq_so_branch
+msgid "Section"
+msgstr "القسم"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_po_branches_cat1_form
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_po_branches_cat1_tree
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_po_branches_cat2_form
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_po_branches_cat2_tree
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_po_branches_form
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_po_branches_tree
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_so_branches_form
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_so_branches_tree
+msgid "Section Managment"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.actions.act_window,name:iq_alraya_custom.iq_po_branches_cat1_wiazrd
+#: model:ir.actions.act_window,name:iq_alraya_custom.iq_po_branches_cat2_wiazrd
+#: model:ir.actions.act_window,name:iq_alraya_custom.iq_po_branches_wiazrd
+#: model:ir.actions.act_window,name:iq_alraya_custom.iq_so_branches_wiazrd
+msgid "Sections Managment"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_stock_move
+msgid "Stock Move"
+msgstr "حركة المخزون"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_swift_code
+msgid "Swift Code"
+msgstr "رمز سويفت"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_cost_tx
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_cost_tx
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_cost_tx
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__iq_cost_tx
+msgid "Taxes Cost"
+msgstr "الضرائب"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_total_original_cost
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_total_original_cost
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_total_original_cost
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__iq_total_original_cost
+msgid "Total Original Price"
+msgstr "مجموع الاسعار الاصليه"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__iq_po_branch_cat1
+msgid "Transport Type"
+msgstr "نوع النقل"
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_user
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_user
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_user
+msgid "User"
+msgstr "المنفذ"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_res_users
+msgid "Users"
+msgstr "المستخدمون"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_wizard_lot_expiredview_form
+msgid "View Close to expiration"
+msgstr "عرض المنتجات القريبه من الانتهاء ضمن الفتره المحدده اعلاه"
+
+#. module: iq_alraya_custom
+#: model_terms:ir.ui.view,arch_db:iq_alraya_custom.iq_wizard_lot_expiredview_form
+msgid "View Expired Lots"
+msgstr "عرض المنتجات المنتهيه صلاحياتها "
+
+#. module: iq_alraya_custom
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_bank_statement_line__iq_cost_wo
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_move__iq_cost_wo
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_account_payment__iq_cost_wo
+#: model:ir.model.fields,field_description:iq_alraya_custom.field_purchase_order__iq_cost_wo
+msgid "Workers Cost"
+msgstr "أجور العمال"
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_iq_lot_expiry_wizard
+msgid "iq.lot.expiry.wizard"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_iq_po_branches
+msgid "iq.po.branches"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_iq_po_branches_cat1
+msgid "iq.po.branches.cat1"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_iq_po_branches_cat2
+msgid "iq.po.branches.cat2"
+msgstr ""
+
+#. module: iq_alraya_custom
+#: model:ir.model,name:iq_alraya_custom.model_iq_so_branches
+msgid "iq.so.branches"
+msgstr ""

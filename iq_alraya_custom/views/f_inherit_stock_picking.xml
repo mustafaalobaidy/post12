@@ -1,0 +1,18 @@
+
+
+<odoo>
+ <record id="iq_salepickingviewreceiptsetting_form_inherit_sections" model="ir.ui.view">
+        <field name="name">iq_salespickingviewreceiptsetting.form.inherit.restrict</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="arch" type="xml">
+            
+             <xpath expr="/form[1]/sheet[1]/notebook[1]/page[@name='operations']/field/tree/button[@name='action_show_details']" position="attributes">
+       <attribute name="string">Receipt Setting</attribute>
+        </xpath>
+          
+                
+        </field>
+    </record>
+    
+    </odoo>

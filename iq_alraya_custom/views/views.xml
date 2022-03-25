@@ -1,0 +1,16 @@
+<odoo>
+  <data>
+   	<record id="iq_lotexpired_autometic_cron" model="ir.cron">
+		<field name="name">Automatic Run After 7 days Expired Lots</field>
+		<field name="interval_number">1</field>
+		<field name="interval_type">days</field>
+		<field name="numbercall">-1</field>
+		<!-- <field name="nextcall" eval="(DateTime.now().replace(hour=2, minute=0) 
+			+ timedelta(days=1)).strftime('%Y-%m-%d %H:%M:%S')" /> -->
+		<field name="doall" eval="False" />
+		<field name="model_id" ref="iq_alraya_custom.model_iq_lot_expiry_wizard" />
+		<field name="code">model.iq_create_activity()</field>
+		<field name="state">code</field>
+	</record>
+  </data>
+</odoo>
